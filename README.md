@@ -83,6 +83,7 @@ This project uses a **simulated federated learning environment**. It compares mo
 ## Authors
 - Rudraksh Singh Bargali
 - Vedansh Sharma
+- jaiveer saharan
 
 ## Project
 CSET225 — Intelligent Model Design using AI
