@@ -37,6 +37,18 @@ The project aims to study how federated learning can support collaborative phish
 The project uses `dataset_B_05_2020.csv`, which contains URL-based features and labels identifying websites as legitimate or phishing.
 
 The URL column is excluded from model training, and the remaining features are used to train and evaluate the models.
+## Dataset Splits
+
+The original dataset is provided as `dataset_B_05_2020.csv`. Separate stratified train, validation, and test CSV files are also included for reproducibility and future experiments.
+
+| File | Split | Purpose |
+|---|---:|---|
+| `train.csv` | 70% | Model training |
+| `validation.csv` | 15% | Model validation and tuning |
+| `test.csv` | 15% | Final evaluation |
+
+These split files were prepared from the original dataset. The experiments reported in the current code use the data-splitting procedures implemented in their respective scripts/notebook; the separate CSV files are provided as dataset deliverables.
+
 
 ## Models and Experiments
 
